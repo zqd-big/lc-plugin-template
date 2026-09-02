@@ -1,0 +1,11 @@
+build/
+*.debug.exe
+*.exe
+*.o
+*.obj
+
+# The parent repository ignores every .vscode directory and every JSON file.
+# Keep this template's checked-in debug configuration visible to Git.
+!.vscode/
+!.vscode/*.json
+!labuladong-settings.json

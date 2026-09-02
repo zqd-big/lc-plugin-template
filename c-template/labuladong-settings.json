@@ -1,0 +1,39 @@
+{
+    "labuladong-leetcode.defaultLanguage": "c",
+    "labuladong-leetcode.workspaceFolder": "C:\\Users\\ZQD\\Desktop\\labuladong\\lc-plugin-template\\c-template",
+    "labuladong-leetcode.filePath": {
+        "default": {
+            "folder": "",
+            "filename": "${id}.${kebab-case-name}.${ext}"
+        },
+        "c": {
+            "folder": "leetcode/editor/${endpointType}",
+            "filename": "${kebab-case-name}.${ext}"
+        },
+        "cpp": {
+            "folder": "leetcode/editor/${endpointType}",
+            "filename": "${kebab-case-name}.${ext}"
+        },
+        "python": {
+            "folder": "leetcode/editor/${endpointType}",
+            "filename": "${kebab-case-name}.${ext}"
+        },
+        "python3": {
+            "folder": "leetcode/editor/${endpointType}",
+            "filename": "${kebab-case-name}.${ext}"
+        },
+        "javascript": {
+            "folder": "leetcode/editor/${endpointType}",
+            "filename": "${kebab-case-name}.${ext}"
+        },
+        "golang": {
+            "folder": "leetcode/editor/${endpointType}",
+            "filename": "${snake_case_name}_test.${ext}"
+        },
+        "java": {
+            "folder": "src/main/java/leetcode/editor/${endpointType}",
+            "filename": "${PascalCaseName}.${ext}"
+        }
+    },
+    "labuladong-leetcode.customCodeTemplate": "\\#include \"../common/lc_common.h\"\n\n${question.code}\n\nint main(void) {\n    /* 在这里写本地测试代码；main 不会被提交到力扣。 */\n    return 0;\n}"
+}

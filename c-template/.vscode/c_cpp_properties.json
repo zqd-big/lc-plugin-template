@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "MinGW C11",
+            "compilerPath": "D:\\BaiduNetdiskDownload\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "intelliSenseMode": "windows-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/leetcode/editor/common",
+                "${workspaceFolder}/leetcode/editor/common/cstl",
+                "${workspaceFolder}/leetcode/editor/common/third_party/uthash"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
+}

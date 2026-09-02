@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "C: build active LeetCode file",
+            "type": "shell",
+            "command": "gcc",
+            "windows": {
+                "command": "D:\\BaiduNetdiskDownload\\mingw64\\bin\\gcc.exe"
+            },
+            "args": [
+                "-std=c11",
+                "-Wall",
+                "-Wextra",
+                "-Wpedantic",
+                "-g3",
+                "-O0",
+                "-I${workspaceFolder}/leetcode/editor/common",
+                "-I${workspaceFolder}/leetcode/editor/common/cstl",
+                "-I${workspaceFolder}/leetcode/editor/common/third_party/uthash",
+                "${file}",
+                "${workspaceFolder}/leetcode/editor/common/lc_nodes.c",
+                "${workspaceFolder}/leetcode/editor/common/cstl/vos_common.c",
+                "${workspaceFolder}/leetcode/editor/common/cstl/vos_vector.c",
+                "${workspaceFolder}/leetcode/editor/common/cstl/vos_priorityqueue.c",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.debug.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build the active C problem with the local LeetCode/CSTL helpers."
+        }
+    ]
+}
