@@ -12,6 +12,19 @@ Welcome to submit Issue/PR to optimize this repository or add new language suppo
 
 详细的配置方法见 [Jetbrains 刷题插件使用说明](https://labuladong.online/algo/intro/jetbrains/) 和 [vscode 刷题插件使用说明](https://labuladong.online/algo/intro/vscode/)。
 
+C语言代码模板
+
+\#include "../common/lc_common.h"
+
+${question.code}
+
+int main(void) {
+    // your test code here
+    return 0;
+}
+
+剩下的和cpp一样就可以
+
 欢迎提出 Issue/PR 优化本仓库，或添加新的编程语言支持。
 
 # Exmaples
